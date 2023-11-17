@@ -215,9 +215,35 @@
         </localization-form>
       {%- endif -%}
     </div> {% endcomment %}
-	test
+	<div class="marquee-container">
+        <div class="marquee-content">
+            <!-- Your content goes here -->
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+    </div>
   </div>
 </div>
+
+<style>
+	.marquee-container {
+	    overflow: hidden;
+	    white-space: nowrap;
+	}
+
+	.marquee-content {
+	    display: inline-block;
+	    animation: marquee 10s linear infinite; /* Adjust the duration as needed */
+	}
+
+	@keyframes marquee {
+	    from {
+	        transform: translateX(100%);
+	    }
+	    to {
+	        transform: translateX(-100%);
+	    }
+	}
+</style>
 
 {% schema %}
 {
