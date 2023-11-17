@@ -23,7 +23,7 @@
   {{ block.shopify_attributes }}
 >
   <div class="page-width utility-bar__grid{% if announcement_bar and language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--3-col{% elsif language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--2-col{% endif %}">
-    {%- if section.settings.show_social and social_icons -%}
+    {% comment %} {%- if section.settings.show_social and social_icons -%}
       {%- render 'social-icons' -%}
     {%- endif -%}
     {%- if section.blocks.size == 1 -%}
@@ -214,7 +214,8 @@
           {%- endform -%}
         </localization-form>
       {%- endif -%}
-    </div>
+    </div> {% endcomment %}
+	test
   </div>
 </div>
 
