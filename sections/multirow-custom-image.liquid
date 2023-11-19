@@ -75,7 +75,7 @@
               {%- endif -%}
             </div>
           </div>
-          <div class="image-with-text__text-item grid__item custom-img-bg">
+          <div class="image-with-text__text-item grid__item custom-img-bg-new">
             test1
             test2
           </div>
@@ -87,7 +87,7 @@
 
 {%- for block in section.blocks -%}
 <style>
-	.custom-img-bg {
+	.custom-img-bg-new {
 		/* background-image: {{ block.settings.image | img_url  }}; */
 		/* background-image-url: {{ block.settings.image | img_url  }}; */
 		background-image: url("{{ block.settings.bg_image | img_url : 'original' }}");
