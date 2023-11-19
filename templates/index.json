@@ -48,7 +48,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/5161_RELAX_HOOD_MAIN__73930.png",
             "bg_image": "shopify:\/\/shop_images\/bennie-bates-nhKQTY_IGH-1.png",
-            "text_color": "#f1962a",
+            "text_color": "#e16767",
             "caption": "",
             "heading": "",
             "text": "<p>DROP 24\/08\/2023<\/p>",
@@ -93,7 +93,7 @@
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "image_layout": "alternate-left",
         "section_color_scheme": "",
         "row_color_scheme": "",
