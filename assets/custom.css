@@ -55,3 +55,6 @@
 	border-radius: 20px;
 }
 
+.shop-btn:hover {
+	text-decoration: none;
+}
