@@ -1,3 +1,8 @@
 .gradient  {
 	border: none !important;
 }
+
+.footer__content-bottom {
+    border-top: 2px solid #f1962a;
+    padding-top: 0rem;
+}
