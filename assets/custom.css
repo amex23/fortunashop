@@ -18,6 +18,9 @@
 }
 
 .footer-block ul li a{
-	color: #f1962a !important;
+	color: #f1962a;
 }
 
+.header__active-menu-item {
+    text-decoration: none;
+}
