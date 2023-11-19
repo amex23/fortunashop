@@ -2,3 +2,6 @@
 	border: none !important;
 }
 
+.header-wrapper--border-bottom {
+	border-top: 2px solid #f1962a;
+}
