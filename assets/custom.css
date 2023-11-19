@@ -39,12 +39,15 @@
 
 .card-information {
     text-align: center;
+	display: flex;
+    flex-direction: column;
 }
 
 .collection__description {
 	text-align: center;
 }
 
-.card-information .shop-btn {
-	text-align: center;
+.shop-btn {
+	text-decoration: none;
 }
+
