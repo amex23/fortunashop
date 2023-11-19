@@ -124,7 +124,7 @@
 	}
 
 	.image-with-text__content h2, p {
-		color: red;
+		color: {{ block.settings.text_color  }};
 	}
 </style>
 {%- endfor -%}
@@ -375,6 +375,11 @@
           "type": "image_picker",
           "id": "bg_image",
           "label": "Background Image"
+        },
+		{
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color"
         },
         {
           "type": "text",
