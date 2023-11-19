@@ -5,6 +5,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "133568d9-4185-48cb-ae90-81091b667860": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo2.png",
+            "image_width": 85,
+            "alignment": ""
+          }
+        },
         "16933f15-08e1-478b-84ef-43c912db6f4a": {
           "type": "link_list",
           "settings": {
@@ -35,6 +43,7 @@
         }
       },
       "block_order": [
+        "133568d9-4185-48cb-ae90-81091b667860",
         "16933f15-08e1-478b-84ef-43c912db6f4a",
         "cf381e7a-b57f-4933-a2dc-4d1fff32aa59",
         "dae6e85b-027a-45cf-9397-2494ddbd2ef1",
