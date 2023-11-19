@@ -9,7 +9,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/logo2.png",
-            "image_width": 85,
+            "image_width": 220,
             "alignment": ""
           }
         },
@@ -36,6 +36,7 @@
         },
         "f5b77abc-939f-4a67-a116-bb942368b87f": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
