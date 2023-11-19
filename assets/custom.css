@@ -33,6 +33,6 @@
     text-align: center;
 }
 
-.card-information {
+.card-information>.price {
     text-align: center;
 }
