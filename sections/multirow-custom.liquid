@@ -116,6 +116,8 @@
 		/* background-image: {{ block.settings.image | img_url  }}; */
 		/* background-image-url: {{ block.settings.image | img_url  }}; */
 		background-image: url("{{ block.settings.bg_image | img_url }}");
+		background-repeat: no-repeat;
+  		background-position: center;
 	}
 </style>
 {%- endfor -%}
