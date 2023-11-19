@@ -252,7 +252,9 @@
       data-cascade
     {% endif %}
   >
-    
+    <div style="background: red">
+		{% include 'marque' %}
+	</div>
     <div class="footer__content-bottom-wrapper page-width">
       <div class="footer__column footer__localization isolate">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
