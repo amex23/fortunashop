@@ -3,6 +3,6 @@
 }
 
 .footer__content-bottom {
-    /* border-top: 2px solid #f1962a !important; */
+    border-top: none !important;
     padding-top: 0rem !important;
 }
