@@ -18,7 +18,7 @@
 }
 
 .footer-block ul li a{
-	color: #f1962a;
+	color: #f1962a !important;
 }
 
 .header__active-menu-item {
