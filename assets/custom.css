@@ -24,3 +24,7 @@
 .header__active-menu-item {
     text-decoration: none;
 }
+
+.title-wrapper--no-top-margin>.title {
+    text-align: center;
+}
