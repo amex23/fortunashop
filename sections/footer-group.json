@@ -4,6 +4,42 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "16933f15-08e1-478b-84ef-43c912db6f4a": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "cf381e7a-b57f-4933-a2dc-4d1fff32aa59": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "dae6e85b-027a-45cf-9397-2494ddbd2ef1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "f5b77abc-939f-4a67-a116-bb942368b87f": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "16933f15-08e1-478b-84ef-43c912db6f4a",
+        "cf381e7a-b57f-4933-a2dc-4d1fff32aa59",
+        "dae6e85b-027a-45cf-9397-2494ddbd2ef1",
+        "f5b77abc-939f-4a67-a116-bb942368b87f"
+      ],
       "settings": {
         "color_scheme": "accent-1",
         "newsletter_enable": true,
@@ -17,13 +53,10 @@
         "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
-      	},
-	"announcement-bar": {
-		}  
+      }
     }
   },
   "order": [
-    "footer",
-	"announcement-bar"
+    "footer"
   ]
 }
