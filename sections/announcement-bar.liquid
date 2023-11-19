@@ -23,7 +23,7 @@
   {{ block.shopify_attributes }}
 >
   {% comment %} 
-		<div class="page-width utility-bar__grid{% if announcement_bar and language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--3-col{% elsif language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--2-col{% endif %}">
+    <div class="page-width utility-bar__grid{% if announcement_bar and language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--3-col{% elsif language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--2-col{% endif %}">
 	   {%- if section.settings.show_social and social_icons -%}
       {%- render 'social-icons' -%}
     {%- endif -%}
@@ -216,13 +216,36 @@
         </localization-form>
       {%- endif -%}
     </div> 
-	
     </div> 
    {% endcomment %}
-    {% snippet 'marque' %}
+    {% include 'marque' %}
 </div>
 
 
+<style>
+	.marquee-container {
+	    overflow: hidden;
+	    white-space: nowrap;
+		padding: 15px 0px;
+		background: #171717;
+		color: #f1962a;
+		border-bottom: 2px solid #f1962a;
+	}
+
+	.marquee-content {
+	    display: inline-block;
+	    animation: marquee 10s linear infinite; /* Adjust the duration as needed */
+	}
+
+	@keyframes marquee {
+	    from {
+	        transform: translateX(100%);
+	    }
+	    to {
+	        transform: translateX(-100%);
+	    }
+	}
+</style>
 
 {% schema %}
 {
