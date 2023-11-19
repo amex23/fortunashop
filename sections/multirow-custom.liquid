@@ -113,7 +113,8 @@
 {%- for block in section.blocks -%}
 <style>
 	.custom-img-bg {
-		background-image: {{ block.settings.image | img_url  }};
+		/* background-image: {{ block.settings.image | img_url  }}; */
+		background-image-url: {{ block.settings.image | img_url  }};
 	}
 </style>
 {%- endfor -%}
