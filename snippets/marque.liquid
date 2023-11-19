@@ -1,0 +1,34 @@
+<div class="marquee-container">
+        <div class="marquee-content">
+			<p>FREE SHIPPING ON ORDERS OVER $50.00</p>
+			<p>FREE SHIPPING ON ORDERS OVER $50.00</p>
+			<p>FREE SHIPPING ON ORDERS OVER $50.00</p>
+			<p>FREE SHIPPING ON ORDERS OVER $50.00</p>
+        </div>
+</div>
+
+<style>
+	.marquee-container {
+	    overflow: hidden;
+	    white-space: nowrap;
+		padding: 0px 0px;
+		background: #171717;
+		color: #f1962a;
+		border-bottom: 2px solid #f1962a;
+	}
+
+	.marquee-content {
+	    display: flex;
+	    animation: marquee 26s linear infinite;
+	    gap: 23vw;
+	}
+
+	@keyframes marquee {
+	    from {
+	        transform: translateX(100%);
+	    }
+	    to {
+	        transform: translateX(-100%);
+	    }
+	}
+</style>
