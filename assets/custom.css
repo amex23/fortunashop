@@ -55,9 +55,14 @@
 	border-radius: 20px;
 	font-weight: bold;
 	padding: 5px 35px;
-	margin-top: 3vh !important;
+	margin-top: 2vh !important;
 }
 
 .shop-btn:hover {
 	text-decoration: none;
+}
+
+.img-container {
+	width: 100%;
+    height: auto;
 }
