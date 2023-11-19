@@ -28,3 +28,7 @@
 .title-wrapper--no-top-margin>.title {
     text-align: center;
 }
+
+.card--standard>.card__content .card__information {
+    text-align: center;
+}
