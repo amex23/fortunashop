@@ -50,5 +50,8 @@
 
 .shop-btn {
 	text-decoration: none;
+	color: #f1962a;
+	border: 1px solid #f1962a;
+	border-radius: 20px;
 }
 
