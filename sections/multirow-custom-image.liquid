@@ -50,7 +50,7 @@
         {{ block.shopify_attributes }}
       >
         <div class="image-with-text__grid here bg-image grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
-          <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item grid__item-new">
+          <div class="col-1-new image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item grid__item-new">
             <div class="img-container">
               {%- if block.settings.image != blank -%}
                 {%- capture sizes -%}
@@ -67,7 +67,7 @@
               {%- endif -%}
             </div>
           </div>
-          <div class="image-with-text__text-item col-img grid__item custom-img-bg-new">
+          <div class="col-2-new image-with-text__text-item col-img grid__item custom-img-bg-new">
            <img src="https://cdn.shopify.com/s/files/1/0569/4698/3017/files/Screen_Shot_2023-07-11_at_11.38.22_am.png?v=1700410950" alt="">
            <img src="https://cdn.shopify.com/s/files/1/0569/4698/3017/files/Screen_Shot_2023-07-11_at_11.38.22_am.png?v=1700410950" alt="">
           </div>
