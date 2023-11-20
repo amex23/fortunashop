@@ -77,6 +77,11 @@
     height: auto;
 }
 
+.multicolumn .title-wrapper-with-link {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (min-width: 990px) {
 	.header:not(.drawer-menu).page-width {
 		padding-left: 0rem;
