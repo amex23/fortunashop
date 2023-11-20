@@ -69,11 +69,11 @@
           </div>
           <div class="col-2-new image-with-text__text-item col-img grid__item custom-img-bg-new">
 			<div class="col-img-container-1" >
-				<img src="https://cdn.shopify.com/s/files/1/0569/4698/3017/files/Screen_Shot_2023-07-11_at_11.38.22_am.png?v=1700410950" alt="">
+				<img src="{{ block.settings.bg_image_top | img_url: 'original' }}" alt="">
 			</div>
 
 			<div class="col-img-container-2" >
-				 <img src="https://cdn.shopify.com/s/files/1/0569/4698/3017/files/Screen_Shot_2023-07-11_at_11.38.22_am.png?v=1700410950" alt=""> 
+				 <img src="{{ block.settings.bg_image_bottom | img_url: 'original' }}" alt=""> 
 
 				<div class="text-container-new">
 			  		<h1>COMING SOON</h1>
@@ -416,6 +416,16 @@
           "type": "image_picker",
           "id": "bg_image",
           "label": "Background Image"
+        },
+		{
+          "type": "image_picker",
+          "id": "bg_image_top",
+          "label": "Image Top"
+        },
+		{
+          "type": "image_picker",
+          "id": "bg_image_bottom",
+          "label": "Image Bottom"
         },
 		{
           "type": "color",
