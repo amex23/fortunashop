@@ -3,7 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "custom_css": [
-        ".facets__form {display: none;}"
+
       ],
       "settings": {
         "show_collection_description": true,
