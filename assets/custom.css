@@ -131,3 +131,8 @@ h1 {
     flex-direction: column;
 	background: red;	
 }
+
+.collection-hero--with-image .collection-hero__text-wrapper {
+    padding: 0;
+    flex-basis: 100%;
+}
