@@ -75,22 +75,20 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
-				{% comment %} {% elsif type != 'brand_information' %}
-					<div style="height: 5.8vh; background: red;"> </div> 
-				{% else %} {% endcomment %}
-				   
+                  <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>	   
                 {%- endif -%}
 
-				{% if block.type != 'brand_information' %}
+				{% comment %} {% if section.type != 'brand_information' %}
 					<div style="height: 5.8vh; background: red;"> </div> 
-				{% endif %}
-
-				{% comment %} {% if type != 'brand_information' %}
-					
 				{% endif %} {% endcomment %}
 
-				
+				{% for block in section.blocks %}
+					{% if block.type != 'brand_information' %}
+						<div style="height: 5.8vh; background: red;"> </div> 
+					{% endif %}
+				{% endfor %}
+
+
                 {%- case block.type -%}
                   {%- when '@app' -%}
                     {% render block %}
