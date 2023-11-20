@@ -87,4 +87,10 @@
 		padding-left: 0rem;
 		padding-right: 0rem;
 	}
+
+	.title, .title-wrapper-with-link {
+		margin: 5rem 0 0rem;
+	}
 }
+
+
