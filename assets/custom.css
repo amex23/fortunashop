@@ -95,5 +95,6 @@
 
 .title-wrapper--no-top-margin>.title {
     font-size: 2rem;
+	font-weight: bold;
 }
 
