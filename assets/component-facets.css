@@ -1,3 +1,4 @@
+/* hide filter collection */
 .facets-container {
   display: none;
   grid-template-columns: repeat(2, auto);
