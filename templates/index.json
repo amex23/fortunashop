@@ -195,6 +195,8 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/3a0a9280795e8741b7a3ab9081791a90.png",
+            "bg_image_top": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_11.38.22_am.png",
+            "bg_image_bottom": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_11.38.22_am.png",
             "text_color": "",
             "caption": "Caption",
             "heading": "Row",
