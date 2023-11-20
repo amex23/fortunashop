@@ -113,8 +113,6 @@
 {%- for block in section.blocks -%}
 <style>
 	.custom-img-bg {
-		/* background-image: {{ block.settings.image | img_url  }}; */
-		/* background-image-url: {{ block.settings.image | img_url  }}; */
 		background-image: url("{{ block.settings.bg_image | img_url : 'original' }}");
 		background-repeat: no-repeat;
   		background-position: center;
@@ -390,9 +388,9 @@
           "label": "t:sections.multirow.blocks.row.settings.caption.label"
         },
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "heading",
-          "default": "Row",
+          "default": "<p>Row</p>",
           "label": "t:sections.multirow.blocks.row.settings.heading.label"
         },
         {
