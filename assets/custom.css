@@ -1,5 +1,9 @@
 @import url(https://db.onlinewebfonts.com/c/dd016989b56c8e6b0499c9840bd87ae4?family=Rockin%27+Record);
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Rockin' Record";
+}
+
 .gradient  {
 	border: none !important;
 }
