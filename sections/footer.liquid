@@ -76,10 +76,13 @@
               >
                 {%- if block.settings.heading != blank -%}
                   <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
+				{% elsif type != 'brand_information' %}
+					<div style="height: 5.8vh; "> </div> 
 				{% else %}
-				  <div style="height: 5.8vh; "> </div>  
+				   
                 {%- endif -%}
 
+				
                 {%- case block.type -%}
                   {%- when '@app' -%}
                     {% render block %}
