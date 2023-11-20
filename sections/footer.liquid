@@ -96,7 +96,9 @@
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'link_list' -%}
-					test
+					{%- if block.settings.heading == blank -%}
+						<div style="height: 5.8vh; background: red;"> </div>	   
+					{%- endif -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
                         {%- for link in block.settings.menu.links -%}
