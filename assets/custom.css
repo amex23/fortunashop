@@ -128,7 +128,7 @@ h1 {
 
 .collection-hero__inner {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
 	background: red;	
 }
 
