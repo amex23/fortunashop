@@ -93,6 +93,11 @@
 	}
 }
 
+.multicolumn-card-spacing {
+    margin-left: 0rem; 
+    margin-right: 0rem;
+}
+
 .title-wrapper--no-top-margin>.title {
     font-size: 2rem;
 	font-weight: bold;
