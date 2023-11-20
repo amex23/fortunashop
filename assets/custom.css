@@ -125,3 +125,8 @@ h1 {
 .collection-hero__text-wrapper {
 	text-align: center;
 }
+
+.collection-hero__inner {
+    display: flex;
+    flex-direction: column;	
+}
