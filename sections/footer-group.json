@@ -29,6 +29,7 @@
         },
         "dae6e85b-027a-45cf-9397-2494ddbd2ef1": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
@@ -40,6 +41,13 @@
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
+          }
+        },
+        "cccf252a-bc74-445d-a4c2-37d3b845da43": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>STORE LOCATION<\/strong>",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
         },
         "d3121e1c-bdad-4233-b55f-7041d4c9d9a2": {
@@ -56,6 +64,7 @@
         "cf381e7a-b57f-4933-a2dc-4d1fff32aa59",
         "dae6e85b-027a-45cf-9397-2494ddbd2ef1",
         "f5b77abc-939f-4a67-a116-bb942368b87f",
+        "cccf252a-bc74-445d-a4c2-37d3b845da43",
         "d3121e1c-bdad-4233-b55f-7041d4c9d9a2"
       ],
       "settings": {
