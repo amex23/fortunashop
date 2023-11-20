@@ -81,11 +81,10 @@
 				{% comment %} {% if section.type != 'brand_information' %}
 					<div style="height: 5.8vh; background: red;"> </div> 
 				{% endif %} {% endcomment %}
-
 				
-					{% if block.type == 'brand_information' %}
+					{% comment %} {% if block.type == 'brand_information' %}
 					  asdad
-					{% endif %}
+					{% endif %} {% endcomment %}
 				  
 
 
@@ -97,6 +96,7 @@
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'link_list' -%}
+					test
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
                         {%- for link in block.settings.menu.links -%}
