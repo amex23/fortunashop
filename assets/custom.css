@@ -121,3 +121,8 @@ h1 {
 .header__icons {
     gap: 20px;
 }
+
+/* hide filter collection page */
+.facets-container {
+	display: none;
+}
