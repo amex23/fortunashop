@@ -16,7 +16,7 @@
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
         {{- collection.title | escape -}}
       </h1>
-	  <p>{{ collection.description }}</p>
+	  <p>{{- collection.description | escape -}}</p>
 
 	  <div class="collection-hero__description rte">{{ collection.description }}</div>
 
