@@ -42,11 +42,11 @@
             "menu": "footer"
           }
         },
-        "205654e2-de64-4d4e-9209-40d83c0c17fd": {
-          "type": "link_list",
+        "d3121e1c-bdad-4233-b55f-7041d4c9d9a2": {
+          "type": "text",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "ACKNOWLEDGEMENT",
+            "subtext": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo suscipit inventore, dolorum eos molestias ut molestiae laborum similique possimus blanditiis mollitia dolores recusandae.<\/p>"
           }
         }
       },
@@ -56,7 +56,7 @@
         "cf381e7a-b57f-4933-a2dc-4d1fff32aa59",
         "dae6e85b-027a-45cf-9397-2494ddbd2ef1",
         "f5b77abc-939f-4a67-a116-bb942368b87f",
-        "205654e2-de64-4d4e-9209-40d83c0c17fd"
+        "d3121e1c-bdad-4233-b55f-7041d4c9d9a2"
       ],
       "settings": {
         "color_scheme": "accent-1",
