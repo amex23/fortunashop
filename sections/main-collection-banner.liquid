@@ -19,11 +19,6 @@
 	  <p>{{- collection.title | escape -}}</p>
 	  <p>{{- collection.description -}}</p>
 
-	  <h1 class="collection-hero__title">
-        <span class="visually-hidden">{{ 'sections.collection_template.description' | t }}: </span>
-        {{- collection.description | escape -}}
-      </h1>
-
 	  <div class="collection-hero__description rte">{{ collection.description }}</div>
 
       {% comment %} {%- if section.settings.show_collection_description -%}
