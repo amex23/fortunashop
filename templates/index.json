@@ -197,6 +197,8 @@
             "image": "shopify:\/\/shop_images\/3a0a9280795e8741b7a3ab9081791a90.png",
             "bg_image_top": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_11.38.22_am.png",
             "bg_image_bottom": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_11.38.22_am.png",
+            "text_top": "COMING SOON",
+            "text_bottom": "24\/08\/2023",
             "text_color": "",
             "caption": "Caption",
             "heading": "Row",
@@ -209,6 +211,8 @@
           "type": "row",
           "disabled": true,
           "settings": {
+            "text_top": "",
+            "text_bottom": "",
             "text_color": "",
             "caption": "Caption",
             "heading": "Row",
@@ -221,6 +225,8 @@
           "type": "row",
           "disabled": true,
           "settings": {
+            "text_top": "",
+            "text_bottom": "",
             "text_color": "",
             "caption": "Caption",
             "heading": "Row",
