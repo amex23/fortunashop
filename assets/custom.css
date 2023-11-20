@@ -113,3 +113,7 @@ h1 {
 .full-unstyled-link:hover {
     text-decoration: none;
 }
+
+.header__icon, .header__icon--cart .icon {
+	width: 3rem;
+}
