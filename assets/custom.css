@@ -99,10 +99,17 @@ h1 {
 	}
 }
 
-
-
 .title-wrapper--no-top-margin>.title {
     font-size: 2rem;
 	font-weight: bold;
 }
 
+.full-unstyled-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.full-unstyled-link:hover {
+    text-decoration: none;
+}
