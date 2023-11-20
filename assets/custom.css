@@ -21,6 +21,10 @@
 	color: #f1962a !important;
 }
 
+.footer-block__details-content {
+    color: #f1962a;
+}
+
 .header__active-menu-item {
     text-decoration: none;
 }
