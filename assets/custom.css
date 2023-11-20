@@ -117,3 +117,7 @@ h1 {
 .header__icon, .header__icon--cart .icon {
 	width: 3rem;
 }
+
+.header__icons {
+    gap: 20px;
+}
