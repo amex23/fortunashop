@@ -30,11 +30,11 @@
 		  >
 		</div>
 	  {%- endif -%} {% endcomment %}
-
+	  {%- if section.settings.show_collection_image and collection.image -%}
 	    <div class="collection-hero__image-container media gradient">
 		  <img src="{{ collection.image | image_url: original }}"  >
 		</div>
-
+	  {%- endif -%}
 	  
 
 	<div class="collection-hero__inner page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
