@@ -159,3 +159,9 @@ h1 {
 .accordion__title {
     font-weight: bold;
 }
+
+.accordion summary {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top: -2px;
+}
