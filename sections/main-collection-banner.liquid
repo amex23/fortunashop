@@ -31,13 +31,13 @@
 
 
 
-{% if page.url contains '/collections/all' %}
+{% if request.path == '/collections/all' %}
 	<style>
 	  #collection-here {
 		  margin-top: 10vh !important;
 	  }
-	</style>
-{% endif %}
+	</style>	  
+  {% endif %}
 
 
 {% schema %}
