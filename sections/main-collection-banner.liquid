@@ -41,9 +41,9 @@
         {{- collection.title | escape -}}
       </h1> {% endcomment %}
 	  <p>{{- collection.title | escape -}}</p>
-	  <p>{{ collection.description }}</p>
+	  <p class="collection-description">{{ collection.description }}</p>
 
-	  <div class="collection-hero__description rte">{{ collection.description }}</div>
+	  {% comment %} <div class="collection-hero__description rte">{{ collection.description }}</div> {% endcomment %}
 
       {% comment %} {%- if section.settings.show_collection_description -%}
         <div class="collection-hero__description rte">{{ collection.description }}</div>
