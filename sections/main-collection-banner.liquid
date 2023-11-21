@@ -26,15 +26,18 @@
 	  </div>
 	</div>
 
-	{% if page.url contains '/collections/all' %}
-		  <style>
-			#collection-here {
-	    		margin-top: 10vh !important;
-			}
-		  </style>
-	{% endif %}
+	
 </div>
 
+
+
+{% if page.url contains '/collections/all' %}
+	<style>
+	  #collection-here {
+		  margin-top: 10vh !important;
+	  }
+	</style>
+{% endif %}
 
 
 {% schema %}
