@@ -38,15 +38,13 @@
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
         {{- collection.title | escape -}}
       </h1> {% endcomment %}
-	  <p>{{- collection.title | escape -}}</p>
+	  <h2>{{- collection.title | escape -}}</h2>
+	  <p class="collection-description">{{ collection.description }}</p>
 	  {% comment %} <div class="collection-hero__description rte">{{ collection.description }}</div> {% endcomment %}
 
       {% comment %} {%- if section.settings.show_collection_description -%}
         <div class="collection-hero__description rte">{{ collection.description }}</div>
       {%- endif -%} {% endcomment %}
-	    <div>
-			<p class="collection-description">{{ collection.description }}</p>
-		</div>
     </div>
 
   </div>
