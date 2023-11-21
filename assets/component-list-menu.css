@@ -26,7 +26,7 @@
 
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after{
 	box-shadow: none;
-	font-weight: bold !important;
+	
 }
 
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:hover{
@@ -37,6 +37,7 @@
 .button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
     border-radius: 30px;
     border: 2px solid orange;
+	font-weight: bold !important;
 }
 
 .shopify-payment-button__button--unbranded {
