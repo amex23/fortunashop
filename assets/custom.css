@@ -210,3 +210,7 @@ button.shopify-payment-button__button--unbranded:hover {
 .shopify-payment-button__button--unbranded:hover  {
 	--border-opacity: none !important;
 }
+
+.product-form__input input[type=radio]+label {
+    border: 1.5px solid black;
+}
