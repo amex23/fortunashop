@@ -16,10 +16,89 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "7e849d89-41ae-47a1-a9c2-75656b002973": {
+      "type": "mulitcolumn-custom",
+      "blocks": {
+        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3a0a9280795e8741b7a3ab9081791a90.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3a0a9280795e8741b7a3ab9081791a90.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3a0a9280795e8741b7a3ab9081791a90.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2b5292a1-cb01-46b1-bff9-f05949364fdd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3a0a9280795e8741b7a3ab9081791a90.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8df69fb4-601b-4807-95e5-93482662c308": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3a0a9280795e8741b7a3ab9081791a90.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-1",
+        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-2",
+        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-3",
+        "2b5292a1-cb01-46b1-bff9-f05949364fdd",
+        "8df69fb4-601b-4807-95e5-93482662c308"
+      ],
+      "settings": {
+        "title": "Follow us on instagram to stay up to date @fortunastreet",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "7e849d89-41ae-47a1-a9c2-75656b002973"
   ]
 }
