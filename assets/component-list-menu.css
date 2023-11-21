@@ -40,6 +40,10 @@
 	font-weight: bold !important;
 }
 
+.product-form__submit span {
+	color: orange;
+}
+
 .shopify-payment-button__button--unbranded {
 	background: orange !important;
 }
