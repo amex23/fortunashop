@@ -26,6 +26,14 @@
 	  </div>
 	</div>
 
+	{% if page.url contains '/collections/all' %}
+		  <style>
+			.collection-hero {
+	    		margin-top: 10vh;
+			}
+		  </style>
+	{% endif %}
+
 {% schema %}
 {
   "name": "t:sections.main-collection-banner.name",
