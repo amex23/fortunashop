@@ -188,8 +188,8 @@ button.shopify-payment-button__button--unbranded:hover {
 	border: none !important;
 }
 
-button.shopify-payment-button__button--unbranded {
-    border-radius: 30px;
+.product-form__submit {
+	border-radius: 30px;
     border: 2px solid #f1962a !important;
 	font-weight: bold !important;
 }
