@@ -52,3 +52,8 @@
 	box-shadow: none !important;
 	border: none !important;
 }
+
+.shopify-payment-button__button--unbranded:hover {
+	box-shadow: none !important;
+	border: none !important;
+}
