@@ -14,8 +14,8 @@
 	    <div class="collection-hero__image-container media gradient">
 		  <img src="{{ collection.image | image_url: original }}"  >
 		</div>
-		{% else %}
-			<div style="margin-top: 3vh"></div>
+	  {% else %}
+			<div style="margin-top: 10vh"></div>
 	  {%- endif -%}
 	  
 	<div class="collection-hero__inner page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
