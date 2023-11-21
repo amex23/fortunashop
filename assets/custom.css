@@ -170,6 +170,11 @@ h1 {
     text-decoration: none;
 }
 
+@media screen and (min-width: 750px){
+	.collection-hero {
+	    margin-top: 10vh;
+	}
+}
 
 /* BUTTONS */
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after{
