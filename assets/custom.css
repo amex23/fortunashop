@@ -131,4 +131,9 @@ h1 {
     flex-direction: column !important;
 }
 
-
+.collection-hero--with-image .collection-hero__text-wrapper {
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
