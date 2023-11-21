@@ -1901,16 +1901,16 @@ input[type='checkbox'] {
   pointer-events: none;
   content: '';
   position: absolute;
-  /* top: var(--inputs-border-width); */
-  /* right: var(--inputs-border-width); */
-  /* bottom: var(--inputs-border-width); */
-  /* left: var(--inputs-border-width); */
+  top: var(--inputs-border-width);
+  right: var(--inputs-border-width);
+  bottom: var(--inputs-border-width);
+  left: var(--inputs-border-width);
   /* border: 0.1rem solid transparent; */
-  border: 3px solid black;
+  border: 2px solid black;
   /* border-radius: var(--inputs-radius); */
   border-radius: 30px;
   /* box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity)); */
-  /* transition: box-shadow var(--duration-short) ease; */
+  transition: box-shadow var(--duration-short) ease;
   z-index: 1;
 }
 
