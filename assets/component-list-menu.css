@@ -33,6 +33,10 @@
 	box-shadow: none;
 }
 
+.button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:hover{
+	box-shadow: none;
+}
+
 .button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
     border-radius: 30px;
     border: 2px solid orange;
