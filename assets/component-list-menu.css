@@ -40,7 +40,7 @@
 	font-weight: bold !important;
 }
 
-.button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded:hover {
+button.shopify-payment-button__button--unbranded:hover {
 	box-shadow: none !important;
 	border: none !important;
 }
