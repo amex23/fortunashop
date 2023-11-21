@@ -37,3 +37,7 @@
     border-radius: 30px;
     border: 2px solid orange;
 }
+
+.shopify-payment-button__button--unbranded {
+	background: orange !important;
+}
