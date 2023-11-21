@@ -168,6 +168,6 @@ h1 {
 
 .button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
     text-transform: uppercase;
-    background: red;
+    background: none;
     border-radius: 30px;
 }
