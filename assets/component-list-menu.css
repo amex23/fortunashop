@@ -13,11 +13,6 @@
   outline: none;
 }
 
-.list-menu__item--active {
-  /* text-decoration: underline; */
-  text-underline-offset: 0.3rem;
-}
-
 .list-menu__item--active:hover {
   text-decoration-thickness: 0.2rem;
 }
@@ -45,4 +40,9 @@
 
 .shopify-payment-button__button--unbranded {
 	background: orange !important;
+}
+
+.shopify-payment-button__button--unbranded:hover {
+	box-shadow: none !important;
+	border: none !important;
 }
