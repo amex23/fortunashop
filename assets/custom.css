@@ -200,6 +200,7 @@ button.shopify-payment-button__button--unbranded:hover {
 
 .shopify-payment-button__button--unbranded {
 	background: #f1962a !important;
+	border-radius: 30px;
 }
 
 .shopify-payment-button__button--unbranded:hover  {
