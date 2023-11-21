@@ -178,6 +178,11 @@ h1 {
 	
 }
 
+button.shopify-payment-button__button--unbranded:hover {
+	box-shadow: none !important;
+	border: none !important;
+}
+
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:hover{
 	box-shadow: none !important;
 	border: none !important;
