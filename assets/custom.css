@@ -170,6 +170,9 @@ h1 {
     text-decoration: none;
 }
 
+.collection-hero__image-container {
+    min-height: 35rem;
+}
 
 
 /* BUTTONS */
@@ -188,9 +191,6 @@ button.shopify-payment-button__button--unbranded:hover {
 	border: none !important;
 }
 
-button {
-	
-}
 .shopify-challenge__button, button.shopify-payment-button__button--unbranded {
     border-radius: 30px;
     border: 2px solid #f1962a;
