@@ -1906,10 +1906,10 @@ input[type='checkbox'] {
   bottom: var(--inputs-border-width);
   left: var(--inputs-border-width);
   /* border: 0.1rem solid transparent; */
-  border: 1px solid black;
-  /* border-radius: var(--inputs-radius); */
+  /* border: 1px solid black; */
+  border-radius: var(--inputs-radius);
   border-radius: 30px;
-  box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
+  /* box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity)); */
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
 }
