@@ -196,6 +196,8 @@ button.shopify-payment-button__button--unbranded:hover {
 
 .product-form__submit span {
 	color: #f1962a;
+	border-radius: 30px;
+    border: 2px solid #f1962a;
 }
 
 .shopify-payment-button__button--unbranded {
