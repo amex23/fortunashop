@@ -94,7 +94,7 @@
             {%- render 'loading-spinner' -%}
           </button>
           {%- if show_dynamic_checkout -%}
-            {% comment %} {{ form | payment_button }} {% endcomment %}
+            {{ form | payment_button }}
           {%- endif -%}
         </div>
       {%- endform -%}
