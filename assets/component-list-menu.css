@@ -40,6 +40,11 @@
 	font-weight: bold !important;
 }
 
+.button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded:hover {
+	box-shadow: none !important;
+	border: none !important;
+}
+
 .product-form__submit span {
 	color: #f1962a;
 }
