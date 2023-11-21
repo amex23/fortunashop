@@ -36,16 +36,16 @@
 
 .button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
     border-radius: 30px;
-    border: 2px solid orange;
+    border: 2px solid #f1962a;
 	font-weight: bold !important;
 }
 
 .product-form__submit span {
-	color: orange;
+	color: #f1962a;
 }
 
 .shopify-payment-button__button--unbranded {
-	background: orange !important;
+	background: #f1962a !important;
 }
 
 .shopify-payment-button__button--unbranded:hover {
