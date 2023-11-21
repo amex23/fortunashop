@@ -34,6 +34,8 @@
 	    <div class="collection-hero__image-container media gradient">
 		  <img src="{{ collection.image | image_url: original }}"  >
 		</div>
+		{% else %}
+			<div style="margin-top: 3vh"></div>
 	  {%- endif -%}
 	  
 
