@@ -131,7 +131,7 @@ h1 {
     flex-direction: column !important;
 }
 
-.collection-hero--with-image .collection-hero__text-wrapper {
+.collection-hero--with-image .collection-hero__text-wrapper h2 {
     font-weight: bold;
     font-size: 2rem;
     text-transform: uppercase;
