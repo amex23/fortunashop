@@ -34,7 +34,8 @@
 }
 
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:hover{
-	box-shadow: none;
+	box-shadow: none !important;
+	border: none !important;
 }
 
 .button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
