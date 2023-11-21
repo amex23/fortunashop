@@ -177,6 +177,11 @@ h1 {
 }
 
 /* BUTTONS */
+
+/* .paypal-button.paypal-button-shape-rect {
+    border-radius: 30px;
+} */
+
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after{
 	box-shadow: none;
 	
