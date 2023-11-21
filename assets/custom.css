@@ -162,6 +162,6 @@ h1 {
 
 .accordion summary {
     border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    margin-top: -2px;
+    border-bottom: 0.5px solid gray;
+    margin-top: -1.5px;
 }
