@@ -68,15 +68,6 @@
             "content": "<p>Here<\/p>",
             "page": ""
           }
-        },
-        "5098cdde-7ea2-4a77-8987-2ebf8b00f852": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "FAQs",
-            "icon": "none",
-            "content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -89,8 +80,7 @@
         "buy_buttons",
         "share",
         "171f6553-3563-4e25-af2d-250f68b35277",
-        "54c8ea05-96b6-48e8-9f0f-c06ef972bf8a",
-        "5098cdde-7ea2-4a77-8987-2ebf8b00f852"
+        "54c8ea05-96b6-48e8-9f0f-c06ef972bf8a"
       ],
       "settings": {
         "enable_sticky_info": true,
