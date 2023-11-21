@@ -175,6 +175,7 @@ h1 {
 /* BUTTONS */
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after{
 	box-shadow: none;
+	
 }
 
 button.shopify-payment-button__button--unbranded:hover {
@@ -182,10 +183,15 @@ button.shopify-payment-button__button--unbranded:hover {
 	border: none !important;
 }
 
+.button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:hover{
+	box-shadow: none !important;
+	border: none !important;
+}
+
 .product-form__submit {
 	border-radius: 30px;
     border: 2px solid #f1962a ;
-	font-weight: bold !important;
+	font-weight: bold ;
 }
 
 .product-form__submit span {
@@ -194,10 +200,9 @@ button.shopify-payment-button__button--unbranded:hover {
 
 .shopify-payment-button__button--unbranded {
 	background: #f1962a !important;
-	border-radius: 30px !important;
-	font-weight: bold !important;
+	border-radius: 30px;
 }
 
 .shopify-payment-button__button--unbranded:hover  {
-	--border-opacity: none ;
+	--border-opacity: none !important;
 }
