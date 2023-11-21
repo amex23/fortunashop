@@ -59,6 +59,15 @@
             "content": "<p>Here<\/p>",
             "page": ""
           }
+        },
+        "54c8ea05-96b6-48e8-9f0f-c06ef972bf8a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "none",
+            "content": "<p>Here<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -70,7 +79,8 @@
         "quantity_selector",
         "buy_buttons",
         "share",
-        "171f6553-3563-4e25-af2d-250f68b35277"
+        "171f6553-3563-4e25-af2d-250f68b35277",
+        "54c8ea05-96b6-48e8-9f0f-c06ef972bf8a"
       ],
       "settings": {
         "enable_sticky_info": true,
