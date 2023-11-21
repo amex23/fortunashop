@@ -144,6 +144,14 @@ h1 {
     color: black;
 }
 
+.related-products__heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+
 .button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
     text-transform: uppercase;
 }
