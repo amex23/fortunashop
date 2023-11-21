@@ -188,6 +188,9 @@ button.shopify-payment-button__button--unbranded:hover {
 	border: none !important;
 }
 
+button {
+	
+}
 .shopify-challenge__button, button.shopify-payment-button__button--unbranded {
     border-radius: 30px;
     border: 2px solid #f1962a;
@@ -196,6 +199,7 @@ button.shopify-payment-button__button--unbranded:hover {
 
 .product-form__submit span {
 	color: #f1962a;
+	font-weight: bold;
 }
 
 .product-form__submit  {
