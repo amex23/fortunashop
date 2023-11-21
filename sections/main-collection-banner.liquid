@@ -9,7 +9,7 @@
   }
 {%- endstyle -%}
 
-<div style="background: red;" class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
+<div style="" class="test collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
 	  {%- if section.settings.show_collection_image and collection.image -%}
 	    <div class="collection-hero__image-container media gradient">
 		  <img src="{{ collection.image | image_url: original }}"  >
