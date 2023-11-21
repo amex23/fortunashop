@@ -144,7 +144,10 @@ h1 {
     color: black;
 }
 
-
 .button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded {
     text-transform: uppercase;
+}
+
+.accordion__title {
+    font-weight: bold;
 }
