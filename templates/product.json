@@ -26,17 +26,17 @@
           "settings": {
           }
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "b0f4db51-0dc7-4ab8-a698-fd6962f57c21": {
           "type": "popup",
           "settings": {
             "text": "View Sizing Chart",
             "page": ""
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -91,8 +91,8 @@
         "title",
         "price",
         "description",
-        "b0f4db51-0dc7-4ab8-a698-fd6962f57c21",
         "variant_picker",
+        "b0f4db51-0dc7-4ab8-a698-fd6962f57c21",
         "quantity_selector",
         "buy_buttons",
         "share",
