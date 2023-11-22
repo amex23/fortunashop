@@ -74,8 +74,8 @@
           {%- endunless -%}
         {%- endif -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-        <span class="test2 price-item price-item--regular">
-          {% comment %} {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}} {% endcomment %}
+        <span style="background:red;" class="test2 price-item price-item--regular">
+          {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
         </span>
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
