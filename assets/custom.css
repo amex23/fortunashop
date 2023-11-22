@@ -288,6 +288,10 @@ span:hover {
 	text-decoration: none !important;
 }
 
+.product__info-container>*+* {
+    margin: 0.2rem 0rem 1rem 0rem;
+}
+
 /* .product-popup-modal__button {
     text-decoration: none;
     font-size: 1.2rem;
