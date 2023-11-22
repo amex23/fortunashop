@@ -301,3 +301,6 @@ fieldset.product-form__input .form__label {
     font-weight: bold;
 }
 
+.field {
+    margin-top: 1vh;
+}
