@@ -969,6 +969,7 @@ a.product__text {
   /* text-decoration-thickness: 0.1rem; */
   text-decoration: none;
   transition: text-decoration-thickness var(--duration-short) ease;
+  color: rgba(var(--color-foreground), 0.75);
 }
 
 .product-popup-modal__button:hover {
