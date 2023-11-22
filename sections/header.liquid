@@ -321,7 +321,9 @@
       {%- endfor -%}
 
 	  
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+      <a 
+	  {% comment %} href="{{ routes.cart_url }}"  {% endcomment %}
+	  class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {% comment %} {%- liquid
           if cart == empty
             render 'icon-cart-empty'
