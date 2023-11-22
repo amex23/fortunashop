@@ -219,3 +219,7 @@ button.shopify-payment-button__button--unbranded:hover {
 .product-form__input input[type=radio]+label {
     border: 2px solid gray !important;
 }
+
+.card__information h3 {
+	text-decoration: none;
+}
