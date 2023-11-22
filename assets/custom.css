@@ -221,5 +221,5 @@ button.shopify-payment-button__button--unbranded:hover {
 }
 
 .card__information h3:hover {
-	text-decoration: none;
+	text-decoration: none !important;
 }
