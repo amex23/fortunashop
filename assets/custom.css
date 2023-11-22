@@ -237,6 +237,14 @@ a:hover {
 	text-decoration: none !important;
 }
 
+li:hover {
+	text-decoration: none !important;
+}
+
+span:hover {
+	text-decoration: none !important;
+}
+
 /* .card__information h3:hover {
 	text-decoration: none !important;
 	color: red;
