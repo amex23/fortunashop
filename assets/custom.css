@@ -281,3 +281,7 @@ span:hover {
 .list-menu li a:hover {
 	text-decoration: none !important;
 }
+
+.multirow__inner-custom {
+	max-width: 1440px;
+}
