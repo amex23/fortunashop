@@ -94,7 +94,13 @@
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
-					  here
+					  {% assign heading_value = section.settings | where: "id", "heading" | first %}
+
+						{% if heading_value %}
+						  {% if heading_value.default == "STORE LOCATION" %}
+						    test
+						  {% endif %}
+						{% endif %}
                     </div>
                   {%- when 'link_list' -%}
 					{%- if block.settings.heading == blank -%}
