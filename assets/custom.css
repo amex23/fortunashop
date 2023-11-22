@@ -296,3 +296,7 @@ fieldset.product-form__input .form__label {
 .product-popup-modal__button {
 	font-weight: bold;
 }
+
+.product-form__quantity .form__label {
+    font-weight: bold;
+}
