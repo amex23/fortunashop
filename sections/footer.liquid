@@ -94,7 +94,6 @@
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
-					  {{ block.settings.subtexthtml }}	
                     </div>
                   {%- when 'link_list' -%}
 					{%- if block.settings.heading == blank -%}
@@ -472,12 +471,6 @@
           "id": "subtext",
           "default": "<p>Share contact information, store details, and brand content with your customers.</p>",
           "label": "t:sections.footer.blocks.text.settings.subtext.label"
-        },
-		{
-          "type": "html",
-          "id": "subtexthtml",
-          "default": "<p>here</p>",
-          "label": "html label"
         }
       ]
     },
