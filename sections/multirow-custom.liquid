@@ -42,6 +42,19 @@
   endunless
 -%}
 
+<style>
+	@media screen and (min-width: 1441px) {
+	  .multirow__inner-custom {
+	    /* your existing styles for multirow__inner-custom */
+	  }
+
+	  .multirow__inner-custom.page-width {
+	    display: block;
+	  }
+	}
+
+</style>
+
 <div class="multirow multirow-container-custom section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="multirow__inner multirow__inner-custom">
     {%- for block in section.blocks -%}
