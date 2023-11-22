@@ -93,7 +93,12 @@
                     {% render block %}
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
-                      {{ block.settings.subtext }}
+						{% if block.settings.subtext != blank %}
+							{{ block.settings.subtext }}
+						  {% else %}
+							<!-- Display default content when block.settings.subtext is empty -->
+							Your default content goes here.
+						  {% endif %}
                     </div>
                   {%- when 'link_list' -%}
 					{%- if block.settings.heading == blank -%}
