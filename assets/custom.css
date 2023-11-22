@@ -64,6 +64,14 @@ h1 {
 	}
 }
 
+@media screen and (max-width: 750px) {
+	.footer-container {
+		text-align: center;
+	}
+}
+
+
+
 .shop-btn {
 	text-decoration: none;
 	color: #f1962a !important;
