@@ -18,10 +18,10 @@
 	{% comment %} <div style="background: red;">
 		<p>here</p>
 	</div> {% endcomment %}
-	<div style="width: 50%;">
+	<div class="col1-new">
 		<img src="https://cdn.shopify.com/s/files/1/0569/4698/3017/files/3a0a9280795e8741b7a3ab9081791a90.png?v=1700410861" alt="">
 	</div>
-	<div style="width: 50%;" class="contact-new contact page-width page-width--narrow section-{{ section.id }}-padding">
+	<div class="col2-new" class="contact-new contact page-width page-width--narrow section-{{ section.id }}-padding">
 	{%- if section.settings.heading != blank -%}
 	  <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
 	    {{ section.settings.heading }}
@@ -158,6 +158,14 @@
 	.container-contact {
 		background: pink;
 		display: flex;
+	}
+
+	.col1-new {
+		width: 50%;
+	}
+
+	.col2-new {
+		width: 50%;
 	}
 
 	#ContactForm {
