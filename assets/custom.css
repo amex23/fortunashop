@@ -202,6 +202,10 @@ h1 {
     color: #f1962a;
 }
 
+.product-popup-modal__button {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
 
 @media screen and (max-width: 1025px){
 .header:not(.drawer-menu).page-width {
