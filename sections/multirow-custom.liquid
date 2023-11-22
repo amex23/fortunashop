@@ -42,19 +42,24 @@
   endunless
 -%}
 
-<style>
-	@media screen and (min-width: 1441px) {
-	  .multirow__inner-custom {
-	    /* your existing styles for multirow__inner-custom */
-	  }
+<script>
+  function checkScreenWidth() {
+    // Check if the screen width is more than 1440px
+    if (window.matchMedia("(min-width: 1441px)").matches) {
+      // If true, add the page-width class
+      document.querySelector(".multirow__inner-custom").classList.add("page-width");
+    } else {
+      // If false, remove the page-width class
+      document.querySelector(".multirow__inner-custom").classList.remove("page-width");
+    }
+  }
 
-	  .multirow__inner-custom.page-width {
-	    display: block;
-	  }
-	}
+  // Initial check on page load
+  checkScreenWidth();
 
-</style>
-
+  // Listen for changes in screen width
+  window.addEventListener("resize", checkScreenWidth);
+</script>
 <div class="multirow multirow-container-custom section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="multirow__inner multirow__inner-custom">
     {%- for block in section.blocks -%}
