@@ -68,6 +68,10 @@ h1 {
 	.footer-container {
 		text-align: center;
 	}
+
+	.footer-block__details-content .list-menu__item--link {
+		justify-content: center;
+	}
 }
 
 
