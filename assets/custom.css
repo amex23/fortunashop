@@ -292,3 +292,7 @@ span:hover {
 fieldset.product-form__input .form__label {
     font-weight: bold;
 }
+
+.product-popup-modal__button {
+	font-weight: bold;
+}
