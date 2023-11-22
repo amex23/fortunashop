@@ -304,3 +304,9 @@ fieldset.product-form__input .form__label {
 .field {
     margin-top: 1vh;
 }
+.contact__button button {
+	border-radius: 30px;
+    border: 2px solid #f1962a;
+	color: #f1962a;
+	background: transparent;
+}
