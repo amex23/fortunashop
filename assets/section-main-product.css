@@ -964,7 +964,7 @@ a.product__text {
   font-size: 1.3rem;
   padding-right: 1.3rem;
   padding-left: 0;
-  min-height: 4.4rem;
+  /* min-height: 4.4rem; */
   text-underline-offset: 0.3rem;
   /* text-decoration-thickness: 0.1rem; */
   text-decoration: none;
