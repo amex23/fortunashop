@@ -233,6 +233,10 @@ button.shopify-payment-button__button--unbranded:hover {
 	text-decoration: none !important;
 }
 
+a:hover {
+	text-decoration: none !important;
+}
+
 /* .card__information h3:hover {
 	text-decoration: none !important;
 	color: red;
