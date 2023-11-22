@@ -16,7 +16,7 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient container-contact">
 	<div class="col1-new">
-		<img src="https://cdn.shopify.com/s/files/1/0569/4698/3017/files/3a0a9280795e8741b7a3ab9081791a90.png?v=1700410861" alt="">
+		<img class="" src="https://cdn.shopify.com/s/files/1/0569/4698/3017/files/3a0a9280795e8741b7a3ab9081791a90.png?v=1700410861" alt="">
 	</div>
 	<div class="col2-new" class="contact-new contact page-width page-width--narrow section-{{ section.id }}-padding">
 	{%- if section.settings.heading != blank -%}
@@ -161,6 +161,10 @@
 	.col1-new {
 		width: 50%;
 		background: red;
+	}
+
+	.col1-new img {
+		width: 50%;
 	}
 
 	.col2-new {
