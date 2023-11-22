@@ -229,22 +229,3 @@ button.shopify-payment-button__button--unbranded:hover {
     margin-bottom: 4px;
 }
 
-.header__menu-item span:hover {
-	text-decoration: none !important;
-}
-
-a:hover {
-	text-decoration: none !important;
-}
-
-li:hover {
-	text-decoration: none !important;
-}
-
-span:hover {
-	text-decoration: none !important;
-}
-
-.list-menu li a:hover {
-	text-decoration: none !important;
-}
