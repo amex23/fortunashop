@@ -198,6 +198,13 @@ h1 {
     border-radius: 30px;
 } */
 
+@media screen and (max-width: 1025px){
+.header:not(.drawer-menu).page-width {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+}
+
 .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after{
 	box-shadow: none;
 	
