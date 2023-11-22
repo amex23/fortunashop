@@ -15,10 +15,10 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient container-contact">
-	<div class="col1-new">
+	<div class="coldiv1">
 		<img class="" src="https://cdn.shopify.com/s/files/1/0569/4698/3017/files/3a0a9280795e8741b7a3ab9081791a90.png?v=1700410861" alt="">
 	</div>
-	<div class="col2-new" class="contact-new contact page-width page-width--narrow section-{{ section.id }}-padding">
+	<div class="coldiv2-new" class="contact-new contact page-width page-width--narrow section-{{ section.id }}-padding">
 	{%- if section.settings.heading != blank -%}
 	  <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
 	    {{ section.settings.heading }}
@@ -158,15 +158,15 @@
 			flex-direction: column;
 		}
 
-		.col1-new {
+		.coldiv1 {
 			width: 100%;
 		}
 
-		.col2-new {
+		.coldiv2 {
 			width: 100%;
 		}
 	}
-	
+
 
 	.container-contact {
 		background: #112720;
@@ -174,18 +174,18 @@
 		width: 100%;
 	}
 
-	.col1-new {
+	.coldiv1 {
 		width: 50%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 
-	.col1-new img {
+	.coldiv1 img {
 		width: 100%;
 	}
 
-	.col2-new {
+	.coldiv2 {
 		width: 50%;
 		display: flex;
 		align-items: center;
@@ -196,7 +196,7 @@
 		width: 100%;
 	}
 
-	.col2-new h2 {
+	.coldiv2 h2 {
 		color: white;
 	}
 </style>
