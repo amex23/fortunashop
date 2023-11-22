@@ -92,7 +92,7 @@
                   {%- when '@app' -%}
                     {% render block %}
                   {%- when 'text' -%}
-                    <div class="footer-block__details-content rte">
+                    <div class="footer-block__details-content rte here-{{ section.id }}">
                       {{ block.settings.subtext }}
 					  {% assign heading_value = section.settings | where: "id", "heading" | first %}
 
