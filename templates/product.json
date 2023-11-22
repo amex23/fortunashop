@@ -26,6 +26,13 @@
           "settings": {
           }
         },
+        "b0f4db51-0dc7-4ab8-a698-fd6962f57c21": {
+          "type": "popup",
+          "settings": {
+            "text": "View Sizing Chart",
+            "page": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -84,6 +91,7 @@
         "title",
         "price",
         "description",
+        "b0f4db51-0dc7-4ab8-a698-fd6962f57c21",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
