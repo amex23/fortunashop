@@ -245,7 +245,6 @@ span:hover {
 	text-decoration: none !important;
 }
 
-/* .card__information h3:hover {
+.list-menu li a:hover {
 	text-decoration: none !important;
-	color: red;
-} */
+}
