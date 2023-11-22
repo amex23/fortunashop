@@ -282,11 +282,3 @@ span:hover {
 	text-decoration: none !important;
 }
 
-.multirow-container-custom {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.multirow__inner-custom {
-	max-width: 1600px;
-}
