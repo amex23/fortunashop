@@ -154,6 +154,14 @@
             >
               {{ card_product.title | escape }}
             </a> {% endcomment %}
+			<p
+              {% comment %} href="{{ card_product.url }}" {% endcomment %}
+              id="CardLink-{{ section_id }}-{{ card_product.id }}"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
+            >
+              {{ card_product.title | escape }}
+            </p>
           </h3>
           <div class="card-information">
             {%- if show_vendor -%}
