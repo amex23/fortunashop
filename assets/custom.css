@@ -220,6 +220,11 @@ button.shopify-payment-button__button--unbranded:hover {
     border: 2px solid gray !important;
 }
 
+.collection__title .title:not(:only-child) {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
 /* .card__information h3:hover {
 	text-decoration: none !important;
 	color: red;
