@@ -301,10 +301,3 @@ fieldset.product-form__input .form__label {
     font-weight: bold;
 }
 
-@media screen and (min-width: 750px){
-
-	.contact__fields {
-		grid-template-columns: repeat(1fr);
-	}
-	
-}
