@@ -188,7 +188,7 @@ h1 {
 	}
    
 	 .text-container-new h1 {
-	   font-size: 4rem;
+	   font-size: 4rem !important;
 	  }
    }
 
