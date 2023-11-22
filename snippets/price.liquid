@@ -74,12 +74,12 @@
           {%- endunless -%}
         {%- endif -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-        <span style="background:red;" class="test2 price-item price-item--regular">
+        <span style="" class="test2 price-item price-item--regular">
           {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
         </span>
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-        <span style="background: green;" class="test3 price-item price-item--regular">
+        <span style="" class="test3 price-item price-item--regular">
           {% comment %} {{ money_price }} {% endcomment %}
 		  ${{ product.price | money_without_currency }}
         </span>
@@ -90,7 +90,7 @@
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span>
-          <span style="background: blue;" class="test4 price-item price-item--regular">
+          <span style="" class="test4 price-item price-item--regular">
             {% if settings.currency_code_enabled %}
               {% comment %} {{ compare_at_price | money_with_currency }} {% endcomment %}
               {{ compare_at_price | money}}
