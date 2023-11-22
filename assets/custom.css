@@ -309,4 +309,5 @@ fieldset.product-form__input .form__label {
     border: 2px solid #f1962a;
 	color: #f1962a;
 	background: transparent;
+	width: 70%;
 }
