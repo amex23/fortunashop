@@ -229,10 +229,7 @@ button.shopify-payment-button__button--unbranded:hover {
     margin-bottom: 4px;
 }
 
-.multicolumn .title {
-    margin-bottom: 1.5vh !important;
-	background: red;
-}
+
 
 .header__menu-item span:hover {
 	text-decoration: none !important;
