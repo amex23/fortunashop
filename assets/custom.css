@@ -316,8 +316,3 @@ fieldset.product-form__input .form__label {
 
 
 
-@media screen and (min-width: 750px){
-	.collection-hero--with-image .collection-hero__text-wrapper {
-	    padding: 4rem 2rem 0rem 0;
-	}
-}
