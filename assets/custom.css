@@ -327,3 +327,7 @@ fieldset.product-form__input .form__label {
 .header__icons {
     display: none;
 }
+
+.footer-block ul li {
+	display: none;
+}
