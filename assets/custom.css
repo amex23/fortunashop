@@ -315,4 +315,7 @@ fieldset.product-form__input .form__label {
 }
 
 
-
+/* hiden buttons homepage */
+.shop-btn {
+	display: none;
+}
