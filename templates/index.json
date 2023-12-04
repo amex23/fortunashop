@@ -318,8 +318,11 @@
         "64c3d1ff-4533-42f8-b918-b3871ded23ed",
         "6e49d73c-6d24-4b11-81ad-14d5727e7fe4"
       ],
+      "custom_css": [
+        ".title-wrapper-with-link a {text-decoration: none;}"
+      ],
       "settings": {
-        "title": "<strong>Follow us on instagram to stay up to date <span style=\"text-decoration: none;\"> <\/strong><a href=\"https:\/\/www.instagram.com\/fortunast\/cammcclure11@gmail.com\" title=\"https:\/\/www.instagram.com\/fortunast\/cammcclure11@gmail.com\"><strong>@fortunastreet<\/strong><\/a><strong> <\/span><\/strong>",
+        "title": "<strong>Follow us on instagram to stay up to date  <\/strong><a href=\"https:\/\/www.instagram.com\/fortunast\/cammcclure11@gmail.com\" title=\"https:\/\/www.instagram.com\/fortunast\/cammcclure11@gmail.com\"><strong>@fortunastreet<\/strong><\/a><strong> <\/strong>",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
