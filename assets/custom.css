@@ -314,6 +314,10 @@ fieldset.product-form__input .form__label {
 	width: 70%;
 }
 
+.multicolumn-list__item.center .media--adapt img {
+    width: 100%;
+}
+
 
 /* hiden buttons homepage */
 .shop-btn {
