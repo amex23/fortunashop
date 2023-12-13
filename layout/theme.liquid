@@ -281,6 +281,18 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+	<script>
+	    document.addEventListener('DOMContentLoaded', function() {
+	      // Check if the current path is /pages/location
+	      if (window.location.pathname === '/pages/location') {
+	        // Redirect to a different page
+	        window.location.href = '/pages/404';
+	      }
+	    });
+	  </script>
+
+
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
