@@ -262,6 +262,7 @@
       "blocks": {
         "template--14943666143337__b4435fee-68dd-4f6f-abe0-2dfe9374c30f-column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_0934_8e1c64f9-90b9-4b7d-958a-ec76d5e297af.jpg",
             "title": "",
@@ -272,6 +273,7 @@
         },
         "template--14943666143337__b4435fee-68dd-4f6f-abe0-2dfe9374c30f-column-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1204.jpg",
             "title": "",
@@ -282,6 +284,7 @@
         },
         "template--14943666143337__b4435fee-68dd-4f6f-abe0-2dfe9374c30f-column-3": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1216.jpg",
             "title": "",
@@ -292,6 +295,7 @@
         },
         "64c3d1ff-4533-42f8-b918-b3871ded23ed": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1124.jpg",
             "title": "",
@@ -302,6 +306,7 @@
         },
         "6e49d73c-6d24-4b11-81ad-14d5727e7fe4": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_0986.jpg",
             "title": "",
@@ -411,6 +416,25 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "170244580622e294ff": {
+      "type": "apps",
+      "blocks": {
+        "c637c878-f89a-496a-8351-c7f2d7c3d2e9": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "c637c878-f89a-496a-8351-c7f2d7c3d2e9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -420,6 +444,7 @@
     "f5fbcb0a-aeb4-4903-b54b-fb1ca66fa170",
     "d020583e-3c11-45cd-ae5e-8d761ef161c2",
     "b4435fee-68dd-4f6f-abe0-2dfe9374c30f",
-    "6f741fd6-d10c-41a5-9818-79cdc5219710"
+    "6f741fd6-d10c-41a5-9818-79cdc5219710",
+    "170244580622e294ff"
   ]
 }
