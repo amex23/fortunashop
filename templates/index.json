@@ -120,7 +120,7 @@
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
@@ -322,7 +322,7 @@
         ".title-wrapper-with-link a {text-decoration: none;}"
       ],
       "settings": {
-        "title": "<strong>Follow us on instagram to stay up to date  <\/strong><a href=\"https:\/\/www.instagram.com\/fortunast\/cammcclure11@gmail.com\" title=\"https:\/\/www.instagram.com\/fortunast\/cammcclure11@gmail.com\"><strong>@fortunastreet<\/strong><\/a><strong> <\/strong>",
+        "title": "<strong>Follow us on instagram to stay up to date  <\/strong><a href=\"https:\/\/www.instagram.com\/fortuna.st\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/fortuna.st\/\"><strong>@fortunast<\/strong><\/a>",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
