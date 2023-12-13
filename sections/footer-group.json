@@ -15,7 +15,6 @@
         },
         "16933f15-08e1-478b-84ef-43c912db6f4a": {
           "type": "link_list",
-          "disabled": true,
           "settings": {
             "heading": "<strong>QUICK LINKS<\/strong>",
             "menu": "footer"
@@ -23,7 +22,6 @@
         },
         "cf381e7a-b57f-4933-a2dc-4d1fff32aa59": {
           "type": "link_list",
-          "disabled": true,
           "settings": {
             "heading": "",
             "menu": "location"
@@ -47,7 +45,6 @@
         },
         "cccf252a-bc74-445d-a4c2-37d3b845da43": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "heading": "<strong>STORE LOCATION<\/strong>",
             "subtext": ""
@@ -55,7 +52,6 @@
         },
         "d3121e1c-bdad-4233-b55f-7041d4c9d9a2": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "heading": "<strong>ACKNOWLEDGEMENT<\/strong>",
             "subtext": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo suscipit inventore, dolorum eos molestias ut molestiae laborum similique possimus blanditiis mollitia dolores recusandae.<\/p>"
