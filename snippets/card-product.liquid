@@ -146,16 +146,16 @@
               id="title-{{ section_id }}-{{ card_product.id }}"
             {% endif %}
           >
-            {% comment %} <a
+           <a
               href="{{ card_product.url }}"
               id="CardLink-{{ section_id }}-{{ card_product.id }}"
               class="full-unstyled-link"
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
               {{ card_product.title | escape }}
-            </a> {% endcomment %}
+            </a> 
 			<p
-              {% comment %} href="{{ card_product.url }}" {% endcomment %}
+              href="{{ card_product.url }}"
               id="CardLink-{{ section_id }}-{{ card_product.id }}"
               class="full-unstyled-link"
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
@@ -213,9 +213,9 @@
                 <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
               </div>
             {%- endif -%}
-			{% comment %} <a  
+			<a  
 			href="{{ card_product.url }}" 
-			class="shop-btn here">SHOP NOW</a> {% endcomment %}
+			class="shop-btn here">SHOP NOW</a> 
 			<p 
 			class="shop-btn here-nolink">SHOP NOW</p>
           </div>
