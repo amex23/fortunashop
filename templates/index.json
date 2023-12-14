@@ -433,7 +433,7 @@
         "c637c878-f89a-496a-8351-c7f2d7c3d2e9"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     }
   },
