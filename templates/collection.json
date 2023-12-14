@@ -129,7 +129,7 @@
         "a9d2710a-4936-4837-8c16-53ffdecb765a"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     }
   },
