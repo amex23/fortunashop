@@ -319,8 +319,8 @@ fieldset.product-form__input .form__label {
 }
 
 .shop-btn:hover {
-	text-decoration: none;
-	color: red;
+	text-decoration: none !important;
+	color: red !important;
 }
 
 /* #shopify-section-template--14943666143337__170244580622e294ff .page-width {
