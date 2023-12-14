@@ -318,6 +318,10 @@ fieldset.product-form__input .form__label {
     width: 100%;
 }
 
+.shop-btn:hover {
+	text-decoration: none;
+}
+
 /* #shopify-section-template--14943666143337__170244580622e294ff .page-width {
 	display: none;
 } */
