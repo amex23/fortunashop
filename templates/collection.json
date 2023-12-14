@@ -36,6 +36,7 @@
       "blocks": {
         "template--14943666307177__a3fb8bd1-107d-41a4-baac-899f4525e22d-column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/bennie-bates-nhKQTY_IGH-1.png",
             "title": "",
@@ -46,6 +47,7 @@
         },
         "template--14943666307177__a3fb8bd1-107d-41a4-baac-899f4525e22d-column-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ScreenShot2023-08-28at10.03.00pm.png",
             "title": "",
@@ -56,6 +58,7 @@
         },
         "template--14943666307177__a3fb8bd1-107d-41a4-baac-899f4525e22d-column-3": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_11.37.45_am.png",
             "title": "",
@@ -66,6 +69,7 @@
         },
         "dc0f2c55-7111-4167-ba0a-3193f7f8e22e": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/3a0a9280795e8741b7a3ab9081791a90.png",
             "title": "",
@@ -76,8 +80,8 @@
         },
         "87db987b-fdea-43f3-975d-5181eb6d7a30": {
           "type": "column",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/929a83463bc2a6459baffa2e5dceb2c0.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -108,11 +112,31 @@
         "padding_top": 36,
         "padding_bottom": 12
       }
+    },
+    "1702536439a6c017a1": {
+      "type": "apps",
+      "blocks": {
+        "a9d2710a-4936-4837-8c16-53ffdecb765a": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "a9d2710a-4936-4837-8c16-53ffdecb765a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "a3fb8bd1-107d-41a4-baac-899f4525e22d"
+    "a3fb8bd1-107d-41a4-baac-899f4525e22d",
+    "1702536439a6c017a1"
   ]
 }
