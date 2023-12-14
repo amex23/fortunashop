@@ -298,7 +298,7 @@
      
         <a 
 			{% comment %} href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"  {% endcomment %}
-		  class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+		  class="n1 header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {% comment %} {% render 'icon-account' %} {% endcomment %}
           {% render 'icon-account-new' %}
           <span class="visually-hidden">
