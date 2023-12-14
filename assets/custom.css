@@ -324,30 +324,8 @@ fieldset.product-form__input .form__label {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: none !important;
 }
-
-/* #shopify-section-template--14943666143337__170244580622e294ff .page-width {
-	display: none;
-} */
-
-
-/* hiden buttons homepage */
-/* .shop-btn {
-	display: none;
-}
-
-.header__inline-menu {
-    display: none;
-}
-
-.header__icons {
-    display: none;
-}
-
-.footer-block ul li {
-	display: none;
-} */
