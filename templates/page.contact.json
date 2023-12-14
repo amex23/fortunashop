@@ -22,6 +22,7 @@
       "blocks": {
         "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/bennie-bates-nhKQTY_IGH-1.png",
             "title": "",
@@ -32,6 +33,7 @@
         },
         "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ScreenShot2023-08-28at10.03.00pm.png",
             "title": "",
@@ -42,6 +44,7 @@
         },
         "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-3": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_11.37.45_am.png",
             "title": "",
@@ -52,6 +55,7 @@
         },
         "2b5292a1-cb01-46b1-bff9-f05949364fdd": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/3a0a9280795e8741b7a3ab9081791a90.png",
             "title": "",
@@ -62,6 +66,7 @@
         },
         "8df69fb4-601b-4807-95e5-93482662c308": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "",
@@ -77,7 +82,6 @@
         "2b5292a1-cb01-46b1-bff9-f05949364fdd",
         "8df69fb4-601b-4807-95e5-93482662c308"
       ],
-      "disabled": true,
       "settings": {
         "title": "Follow us on instagram to stay up to date @fortunastreet",
         "heading_size": "h1",
