@@ -63,7 +63,6 @@
         "8df69fb4-601b-4807-95e5-93482662c308": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/929a83463bc2a6459baffa2e5dceb2c0.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -78,6 +77,7 @@
         "2b5292a1-cb01-46b1-bff9-f05949364fdd",
         "8df69fb4-601b-4807-95e5-93482662c308"
       ],
+      "disabled": true,
       "settings": {
         "title": "Follow us on instagram to stay up to date @fortunastreet",
         "heading_size": "h1",
@@ -94,11 +94,31 @@
         "padding_top": 36,
         "padding_bottom": 12
       }
+    },
+    "1702529681ada7c166": {
+      "type": "apps",
+      "blocks": {
+        "6fcb9781-f817-4b13-95b3-bbbd8f842fdd": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "6fcb9781-f817-4b13-95b3-bbbd8f842fdd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "form",
-    "7e849d89-41ae-47a1-a9c2-75656b002973"
+    "7e849d89-41ae-47a1-a9c2-75656b002973",
+    "1702529681ada7c166"
   ]
 }
