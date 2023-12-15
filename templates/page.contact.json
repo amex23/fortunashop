@@ -84,7 +84,7 @@
         "8df69fb4-601b-4807-95e5-93482662c308"
       ],
       "settings": {
-        "title": "<strong>Follow us on instagram to stay up to date  <\/strong><a href=\"https:\/\/www.instagram.com\/fortuna.st\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/fortuna.st\/\"><strong>@fortunast<\/strong><\/a>",
+        "title": "Follow us on instagram to stay up to date @fortunastreet",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -106,7 +106,6 @@
         "6fcb9781-f817-4b13-95b3-bbbd8f842fdd": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "title": "",
             "title_color": "",
             "alignment": "center",
             "html_area": ""
