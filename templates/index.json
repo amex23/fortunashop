@@ -197,7 +197,7 @@
             "image": "shopify:\/\/shop_images\/5F94D525-E8D3-40FA-B41D-92976728F1C4_00dd8a24-29d0-4d8f-906c-0f0c5efb468f.jpg",
             "bg_image_top": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_11.38.22_am.png",
             "bg_image_bottom": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_11.38.22_am.png",
-            "text_top": "COMING SOON",
+            "text_top": "",
             "text_bottom": "",
             "text_color": "",
             "caption": "Caption",
@@ -423,6 +423,7 @@
         "c637c878-f89a-496a-8351-c7f2d7c3d2e9": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
+            "title": "",
             "title_color": "",
             "alignment": "center",
             "html_area": ""
