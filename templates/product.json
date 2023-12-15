@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Product Details",
             "icon": "none",
-            "content": "<p>Hoodie is black with orange and green puff print on the front and regular screen print on the back. <\/p><ul><li>Relaxed fit <\/li><li>Mid weight, 320 GSM <\/li><li>80% cotton 20% polyester fleece <\/li><li>Ranging from S-XXL, oversized fit. <\/li><\/ul>",
+            "content": "<p>{{ product.metafields.custom.product_details | metafield_tag }}<\/p>",
             "page": ""
           }
         },
