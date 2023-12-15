@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "none",
-            "content": "<p>Read More<\/p>",
+            "content": "<p><a href=\"https:\/\/www.fortunast.com.au\/pages\/shipping-information\" target=\"_blank\" title=\"https:\/\/www.fortunast.com.au\/pages\/shipping-information\">Read More<\/a><\/p>",
             "page": ""
           }
         },
