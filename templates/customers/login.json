@@ -7,6 +7,84 @@
         "padding_bottom": 36
       }
     },
+    "86900499-34d4-4b6b-8d0b-f6aa04ff2733": {
+      "type": "mulitcolumn-custom",
+      "blocks": {
+        "template--14943666602089__86900499-34d4-4b6b-8d0b-f6aa04ff2733-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1265_ecc4c407-b485-45cb-9e50-1c39d7b2e829.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14943666602089__86900499-34d4-4b6b-8d0b-f6aa04ff2733-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1270.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14943666602089__86900499-34d4-4b6b-8d0b-f6aa04ff2733-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1275.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9b7d2995-dbd5-4def-971a-e588a6d8b7fd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1282.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "78b63fbc-41b8-40b4-9694-442c7a32f075": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1289.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14943666602089__86900499-34d4-4b6b-8d0b-f6aa04ff2733-column-1",
+        "template--14943666602089__86900499-34d4-4b6b-8d0b-f6aa04ff2733-column-2",
+        "template--14943666602089__86900499-34d4-4b6b-8d0b-f6aa04ff2733-column-3",
+        "9b7d2995-dbd5-4def-971a-e588a6d8b7fd",
+        "78b63fbc-41b8-40b4-9694-442c7a32f075"
+      ],
+      "settings": {
+        "title": "Follow us on instagram to stay up to date <a href=\"https:\/\/www.instagram.com\/fortuna.st\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/fortuna.st\/\">@fortunast<\/a>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
     "17028733723a65207a": {
       "type": "apps",
       "blocks": {
@@ -30,6 +108,7 @@
   },
   "order": [
     "main",
+    "86900499-34d4-4b6b-8d0b-f6aa04ff2733",
     "17028733723a65207a"
   ]
 }
