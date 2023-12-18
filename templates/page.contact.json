@@ -18,20 +18,20 @@
         "padding_bottom": 36
       }
     },
-    "381cbb05-f203-44ca-bb8c-75af8e0341f3": {
+    "b81a8118-d539-436b-a84f-497a35554269": {
       "type": "mulitcolumn-custom",
       "blocks": {
-        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-1": {
+        "template--14943666438249__b81a8118-d539-436b-a84f-497a35554269-column-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1265_ecc4c407-b485-45cb-9e50-1c39d7b2e829.jpg",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-2": {
+        "template--14943666438249__b81a8118-d539-436b-a84f-497a35554269-column-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1270.jpg",
@@ -41,7 +41,7 @@
             "link": ""
           }
         },
-        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-3": {
+        "template--14943666438249__b81a8118-d539-436b-a84f-497a35554269-column-3": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1275.jpg",
@@ -51,17 +51,17 @@
             "link": ""
           }
         },
-        "ac2ecb00-72cd-4f52-9d0b-bbc8e979856d": {
+        "e98159de-a808-4d0a-b8c2-033024910f5d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1282_d94017b6-a1ca-4863-9c72-78fc1fff1bea.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_1282.jpg",
             "title": "",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "65df70bf-c2db-4332-9957-de023046fd57": {
+        "1ee7a610-6ffe-4117-b34f-21ea052b887e": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1289.jpg",
@@ -73,14 +73,14 @@
         }
       },
       "block_order": [
-        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-1",
-        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-2",
-        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-3",
-        "ac2ecb00-72cd-4f52-9d0b-bbc8e979856d",
-        "65df70bf-c2db-4332-9957-de023046fd57"
+        "template--14943666438249__b81a8118-d539-436b-a84f-497a35554269-column-1",
+        "template--14943666438249__b81a8118-d539-436b-a84f-497a35554269-column-2",
+        "template--14943666438249__b81a8118-d539-436b-a84f-497a35554269-column-3",
+        "e98159de-a808-4d0a-b8c2-033024910f5d",
+        "1ee7a610-6ffe-4117-b34f-21ea052b887e"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Follow us on instagram to stay up to date <a href=\"https:\/\/www.instagram.com\/fortuna.st\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/fortuna.st\/\">@fortunast<\/a>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -120,7 +120,7 @@
   "order": [
     "main",
     "form",
-    "381cbb05-f203-44ca-bb8c-75af8e0341f3",
+    "b81a8118-d539-436b-a84f-497a35554269",
     "1702529681ada7c166"
   ]
 }
