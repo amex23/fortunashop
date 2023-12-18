@@ -279,7 +279,7 @@
         "88dc0eb2-8688-4aa3-a291-8eb5f9c209f3"
       ],
       "settings": {
-        "title": "Follow us on instagram to stay up to date <a href=\"https:\/\/www.instagram.com\/fortuna.st\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/fortuna.st\/\">@fortunast<\/a>",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -293,6 +293,25 @@
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 12
+      }
+    },
+    "d098e543-f51a-46c3-84ac-cdd071c97017": {
+      "type": "multicolumn",
+      "settings": {
+        "title": "Follow us on instagram to stay up to date <a href=\"https:\/\/www.instagram.com\/fortuna.st\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/fortuna.st\/\">@fortunast<\/a>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "17025368714e5f6e88": {
@@ -321,6 +340,7 @@
     "related-products",
     "7ed2abd1-7e78-47e3-ba49-91336c499adc",
     "179c4aab-3666-4b02-9217-fb5b1094c594",
+    "d098e543-f51a-46c3-84ac-cdd071c97017",
     "17025368714e5f6e88"
   ]
 }
