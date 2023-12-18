@@ -18,57 +18,53 @@
         "padding_bottom": 36
       }
     },
-    "7e849d89-41ae-47a1-a9c2-75656b002973": {
+    "381cbb05-f203-44ca-bb8c-75af8e0341f3": {
       "type": "mulitcolumn-custom",
       "blocks": {
-        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-1": {
+        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-1": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/bennie-bates-nhKQTY_IGH-1.png",
+            "image": "shopify:\/\/shop_images\/IMG_1265_ecc4c407-b485-45cb-9e50-1c39d7b2e829.jpg",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1270.jpg",
             "title": "",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-2": {
+        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-3": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/ScreenShot2023-08-28at10.03.00pm.png",
+            "image": "shopify:\/\/shop_images\/IMG_1275.jpg",
             "title": "",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-3": {
+        "ac2ecb00-72cd-4f52-9d0b-bbc8e979856d": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_11.37.45_am.png",
+            "image": "shopify:\/\/shop_images\/IMG_1282_d94017b6-a1ca-4863-9c72-78fc1fff1bea.jpg",
             "title": "",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "2b5292a1-cb01-46b1-bff9-f05949364fdd": {
+        "65df70bf-c2db-4332-9957-de023046fd57": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/3a0a9280795e8741b7a3ab9081791a90.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "8df69fb4-601b-4807-95e5-93482662c308": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1289.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -77,14 +73,14 @@
         }
       },
       "block_order": [
-        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-1",
-        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-2",
-        "template--14943666438249__7e849d89-41ae-47a1-a9c2-75656b002973-column-3",
-        "2b5292a1-cb01-46b1-bff9-f05949364fdd",
-        "8df69fb4-601b-4807-95e5-93482662c308"
+        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-1",
+        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-2",
+        "template--14943666438249__381cbb05-f203-44ca-bb8c-75af8e0341f3-column-3",
+        "ac2ecb00-72cd-4f52-9d0b-bbc8e979856d",
+        "65df70bf-c2db-4332-9957-de023046fd57"
       ],
       "settings": {
-        "title": "<strong>Follow us on instagram to stay up to date  <\/strong><a href=\"https:\/\/www.instagram.com\/fortuna.st\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/fortuna.st\/\"><strong>@fortunast<\/strong><\/a>",
+        "title": "Multicolumn",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -124,7 +120,7 @@
   "order": [
     "main",
     "form",
-    "7e849d89-41ae-47a1-a9c2-75656b002973",
+    "381cbb05-f203-44ca-bb8c-75af8e0341f3",
     "1702529681ada7c166"
   ]
 }
