@@ -12,30 +12,50 @@
       "blocks": {
         "template--14943666503785__204a8a25-63ab-4d58-8cfe-1fddc37f5ec1-column-1": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/IMG_1265_ecc4c407-b485-45cb-9e50-1c39d7b2e829.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
         "template--14943666503785__204a8a25-63ab-4d58-8cfe-1fddc37f5ec1-column-2": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/IMG_1273.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
         "template--14943666503785__204a8a25-63ab-4d58-8cfe-1fddc37f5ec1-column-3": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/IMG_1275.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f9ea8aee-9e83-45e1-ab90-d483dda26d6e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1282_d94017b6-a1ca-4863-9c72-78fc1fff1bea.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6a9c5ed4-ae32-4f4b-86ce-a009f749c94e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1289.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -44,14 +64,16 @@
       "block_order": [
         "template--14943666503785__204a8a25-63ab-4d58-8cfe-1fddc37f5ec1-column-1",
         "template--14943666503785__204a8a25-63ab-4d58-8cfe-1fddc37f5ec1-column-2",
-        "template--14943666503785__204a8a25-63ab-4d58-8cfe-1fddc37f5ec1-column-3"
+        "template--14943666503785__204a8a25-63ab-4d58-8cfe-1fddc37f5ec1-column-3",
+        "f9ea8aee-9e83-45e1-ab90-d483dda26d6e",
+        "6a9c5ed4-ae32-4f4b-86ce-a009f749c94e"
       ],
       "settings": {
         "title": "<strong>Follow us on instagram to stay up to date  <\/strong><a href=\"https:\/\/www.instagram.com\/fortuna.st\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/fortuna.st\/\"><strong>@fortunast<\/strong><\/a>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 5,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
