@@ -340,7 +340,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 8
+        "padding_bottom": 0
       }
     },
     "6f741fd6-d10c-41a5-9818-79cdc5219710": {
@@ -491,7 +491,7 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 12
       }
     },
