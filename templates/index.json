@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -46,7 +55,7 @@
         "template--14943666143337__96996d08-00cb-4709-800c-7a7b61841384-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/P1026066.jpg",
+            "image": "shopify:\/\/shop_images\/Screenshot2024-08-11at6.32.15pm.png",
             "bg_image": "shopify:\/\/shop_images\/bennie-bates-nhKQTY_IGH-1.png",
             "text_color": "#f1962a",
             "caption": "",
@@ -524,6 +533,7 @@
             "title": "",
             "title_color": "",
             "alignment": "center",
+            "background_color": "",
             "html_area": ""
           }
         }
